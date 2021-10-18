@@ -1,0 +1,490 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- Favicon Icon -->
+      <link rel="shortcut icon" href="assets/images/fav.png" type="image/png">
+      <!-- Font Link -->
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;300;500;700;900&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+      <link rel="stylesheet" href="assets/css/style.css">
+      <link rel="stylesheet" href="assets/css/responsive.css">
+      <link rel="stylesheet" href="assets/css/hover.css">
+      <link rel="stylesheet" href="assets/css/material-icon.css">
+      <title>Trey Carter</title>
+   </head>
+   <body>
+      
+      <!-- header start -->
+      <header class="site-header">
+         <div class="container">
+             <div class="row">
+                 <nav class="navbar navbar-expand-lg">
+                     <a class="navbar-brand" href="#">
+                         <img src="assets/images/logo.png" alt="logo">
+                     </a>
+                     <button class="toggleMenu" onclick="toggleMenu()">
+                         <div class="icon">
+                            <div class="menu-icon move-left close-icon" id="menuIcon">
+                                 <span></span>
+                            </div>
+                         </div>
+                     </button>
+                     <div class="site-menu" id="siteMenu">
+                     <ul class="navbar-nav ml-auto">
+                         <li class="nav-item">
+                             <a class="nav-link" href="#">Home</a>
+                         </li>
+                         <li class="nav-item">
+                             <a class="nav-link" href="#">About</a>
+                         </li>
+                         <li class="nav-item">
+                             <a class="nav-link" href="#">My Profile</a>
+                         </li>
+                         <li class="nav-item">
+                           <a class="nav-link" href="#">My Shows</a>
+                         </li>
+                         <li class="nav-item">
+                           <a class="nav-link contact-link" href="#">Contact</a>
+                         </li>
+                     </ul>
+                     </div>
+                 </nav>
+             </div>
+         </div>
+     </header>
+     <!-- header end -->
+
+     <section class="hero-banner" style="background-image: url(assets/images/banner-bg.png);">
+        <div class="container">
+           <div class="row">
+              <div class="col-md-7">
+                   <div class="hero-content">
+                      <h2 class="heading-white-bold">
+                        Therapeutic Comedy
+                      </h2>
+                      <h3 class="heading-white-thin">
+                        From Trey's Perspective
+                      </h3>
+                      <p class="desc-white">
+                        The best way to address your issues is listen<br />
+                        to somebody else joke about theirs.
+                      </p>
+                      <div class="play-btn-wrap pt-90">
+                         <button class="play-btn" data-toggle="modal" data-target="#latestvideoModal">
+                           <span class="material-icons-outlined play-icon">
+                              arrow_right
+                           </span>
+                           Latest Video
+                         </button> 
+                      </div>
+                   </div>
+              </div>
+              <div class="col-md-5">
+                 <div class="hero-img-content">
+                    <img src="assets/images/tc.png" alt="img" class="img-fluid" />
+                 </div>
+              </div>
+           </div>
+        </div>
+     </section>
+
+     <section class="about-wrap pt-120">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+                 <div class="top-content text-center">
+                    <h2 class="heading-blue">Laughter Makes Life Better</h2>
+                    <h3 class="title-brown">What I Believe In</h3>
+                 </div>
+            </div>
+            <div class="about-list-content">
+                 <ul>
+                    <li>
+                       <div class="col-md-6">
+                           <div class="about-img-content">
+                              <img src="assets/images/comedian.png" alt="img" class="img-fluid" />
+                           </div>
+                       </div>
+                       <div class="col-md-6">
+                           <div class="about-desc-content">
+                              <h2 class="heading-brown-sm">Comedian</h2>
+                              <p class="desc-black">
+                                 I address social and relationship<br />
+                                 issues with the assist of humor<br />
+                                 and personality. 
+                              </p>
+                           </div>
+                       </div>
+                    </li>
+                    <li class="circle-left">
+                        <div class="col-md-6">
+                           <div class="about-desc-content float-ryt">
+                              <h2 class="heading-brown-sm">Actor</h2>
+                              <p class="desc-black">
+                                 20 years experience. Uta Hagen,<br />
+                                 Meisner and Stella Adler trained. 
+                              </p>
+                           </div>
+                        </div>
+                        <div class="col-md-6">
+                           <div class="about-img-content">
+                              <img src="assets/images/actor.png" alt="img" class="img-fluid" />
+                           </div>
+                        </div>
+                  </li>
+                  <li>
+                        <div class="col-md-6">
+                           <div class="about-img-content">
+                              <img src="assets/images/therapist.png" alt="img" class="img-fluid" />
+                           </div>
+                        </div>
+                        <div class="col-md-6">
+                           <div class="about-desc-content">
+                              <h2 class="heading-brown-sm">Therapist</h2>
+                              <p class="desc-black">
+                                 Bachelor's Degree in Psychology.<br />
+                                 Master's Degree in Psychology.<br />
+                                 Master's Degree in Human &<br />
+                                 Social Services.
+                              </p>
+                           </div>
+                        </div>
+                  </li>
+                 </ul>
+            </div>
+         </div>
+      </div>
+     </section>
+
+      <section class="profile-wrap bg-grey ptb-60">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6">
+                  <div class="profile-img-content">
+                     <img src="assets/images/profile.png" alt="img" class="img-fluid" />
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="profile-desc-content pt-90">
+                        <h2 class="heading-blue">My Profile</h2>
+                        <h3 class="title-brown ptb-20-60">TREY CARTER</h3>
+                        <p class="desc-black">
+                           I’m an actor with a master degrees in<br />
+                           psychology. Going to use my comedic<br />
+                           ability and psychology skills to address<br />
+                           social and relationship issues, while<br />
+                           helping the world heal with one joke at<br />
+                           a time.
+                        </p>
+                        <div class="check-btn">
+                           <a href="#">Check Out My IMDb Profile</a>
+                        </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      
+      <section class="show-wrap ptb-120-145">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="top-content text-left">
+                     <h2 class="heading-blue">My Shows - Collections</h2>
+                     <h3 class="title-brown ptb-25-80">Laugh Your Heart Out</h3>
+                  </div>
+               </div>
+               <div class="col-md-12 col-lg-5">
+                  <div class="video-list">
+                     <ul>
+                        <li>
+                           <div class="videolist-content">
+                              <div class="videolist-content-left">
+                                 <a href="#" data-toggle="modal" data-target="#showonevideoModal">
+                                    <figure>
+                                       <img src="assets/images/youtube1.png" alt="img" class="img-fluid" />
+                                       <div class="video-play-icon">
+                                          <span class="material-icons-outlined">
+                                             play_circle
+                                          </span>
+                                       </div>
+                                    </figure>
+                                 </a>    
+                              </div>
+                              <div class="videolist-content-right">
+                              <h2 class="heading-black-sm">
+                                 Duis autem vel eum iriure<br />
+                                 dolor in hendrerit in vulput
+                              </h2>
+                              <span class="title-grey-sm">Nam consequat</span>
+                              </div>
+                           </div>
+                        </li>
+                        <li>
+                           <div class="videolist-content">
+                              <div class="videolist-content-left">
+                                 <a href="#" data-toggle="modal" data-target="#showtwovideoModal">
+                                    <figure>
+                                       <img src="assets/images/youtube2.png" alt="img" class="img-fluid" />
+                                       <div class="video-play-icon">
+                                          <span class="material-icons-outlined">
+                                             play_circle
+                                          </span>
+                                       </div>
+                                    </figure>
+                                 </a>   
+                              </div>
+                              <div class="videolist-content-right">
+                              <h2 class="heading-black-sm">
+                                 Duis autem vel eum iriure<br />
+                                 dolor in hendrerit in vulput
+                              </h2>
+                              <span class="title-grey-sm">Nam consequat</span>
+                              </div>
+                           </div>
+                        </li>
+                        <li>
+                           <div class="videolist-content">
+                              <div class="videolist-content-left">
+                                 <a href="#" data-toggle="modal" data-target="#showthreevideoModal">
+                                    <figure>
+                                       <img src="assets/images/youtube3.png" alt="img" class="img-fluid" />
+                                       <div class="video-play-icon">
+                                          <span class="material-icons-outlined">
+                                             play_circle
+                                          </span>
+                                       </div>
+                                    </figure>
+                                 </a>    
+                              </div>
+                              <div class="videolist-content-right">
+                              <h2 class="heading-black-sm">
+                                 Duis autem vel eum iriure<br />
+                                 dolor in hendrerit in vulput
+                              </h2>
+                              <span class="title-grey-sm">Nam consequat</span>
+                              </div>
+                           </div>
+                           
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-md-12 col-lg-7">
+                  <div class="show-video-wrap">
+                     <iframe width="100%" height="450" src="https://www.youtube.com/embed/a70wpk8ODTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="contact-wrap ptb-80-20" style="background-image: url(assets/images/contact-bg.png);">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="top-content text-center">
+                     <h2 class="heading-brown-lg">Contact Me</h2>
+                     <p class="desc-white">
+                        If you have questions about shows, private events, or anything else,<br />
+                        please use the contact form below, or call me at (818) 533-9228
+                     </p>
+                  </div>
+               </div>
+               <div class="contact-form col-md-5">
+                  <form>
+                     <div class="form-group">
+                       <input type="text" class="form-control" placeholder="Name">
+                     </div>
+                     <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Email">
+                      </div>
+                     <div class="form-group">
+                       <textarea class="form-textarea" rows="5" placeholder="Message"></textarea>
+                     </div>
+                     <button type="submit" class="btn btn-brown">Submit</button>
+                   </form>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <footer class="site-footer">
+         <div class="container">
+            <div class="footer-top ptb-80">
+               <div class="row">
+                  <div class="col-md-4">
+                       <div class="comedy-heading">
+                          <h2>
+                              <span class="heading-bwn-thin">comedy</span>
+                              <span class="heading-blk-bold">is, was end</span>
+                              <span class="heading-bwn-bold">always</span>
+                              <span class="heading-blk-thin">will be the</span>
+                              <span class="heading-bwn-boldsm">best therapy!</span>
+                          </h2>
+                       </div>
+                  </div>
+                  <div class="col-md-2">
+                     <div class="footer-page-link">
+                        <h2 class="footer-heading">
+                           Links
+                        </h2>
+                        <ul>
+                           <li>
+                              <a href="#">Home</a>
+                           </li>
+                           <li>
+                              <a href="#">About</a>
+                           </li>
+                           <li>
+                              <a href="#">My Profile</a>
+                           </li>
+                           <li>
+                              <a href="#">My Shows</a>
+                           </li>
+                           <li>
+                              <a href="#">Contact</a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-md-6">
+                     <div class="contact-info">
+                        <h2 class="footer-heading">
+                           Phone
+                        </h2>
+                        <div class="phn-no">
+                           <a href="tel:+818 533 9228">+818 533 9228</a>
+                        </div>
+                        
+                        <p class="contact-desc">
+                           If you have a question, please contact at 
+                           <a href="mailto:treycartercomedy@gmail.com">treycartercomedy@gmail.com</a>
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="footer-bottom">
+               <div class="row">
+                  <div class="col-md-6">
+                      <p class="reserved-text">© 2021 Trey Carter. All rights reserved</p>
+                  </div>
+                  <div class="col-md-6">
+                      <ul class="social-icons">
+                         <li>
+                           <a href="https://www.facebook.com/profile.php?id=100073248474112"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                         </li>
+                         <li>
+                           <a href="https://twitter.com/iamtreycarter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                         </li>
+                         <li>
+                           <a href="https://www.instagram.com/treycartercomedy/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                         </li>
+                         <li>
+                           <a href="https://www.youtube.com/channel/UCct98A4xHXoijXerC5J59Ow"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                         </li>
+                         <li>
+                           <a href="https://www.linkedin.com/in/trey-carter-728340223/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                         </li>
+                         <li>
+                           <a href="https://www.pinterest.com/treycartercomedy/_saved/"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+                         </li>
+                      </ul>
+                  </div>
+               </div>   
+            </div>
+                  
+         </div>
+      </footer>
+
+
+<!--Latest Video Modal -->
+<div class="modal fade common-modal" id="latestvideoModal" tabindex="-1" aria-labelledby="latestvideoModalLabel" aria-hidden="true">
+   <div class="modal-dialog modal-dialog-centered">
+     <div class="modal-content">
+       <div class="modal-header">
+         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span class="material-icons-round" aria-hidden="true">
+            close
+            </span>
+            
+         </button>
+       </div>
+       <div class="modal-body">
+         <iframe src="https://www.youtube.com/embed/a70wpk8ODTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       </div>
+     </div>
+   </div>
+ </div>
+
+<!--shows video one Modal -->
+<div class="modal fade common-modal" id="showonevideoModal" tabindex="-1" aria-labelledby="showonevideoModalLabel" aria-hidden="true">
+   <div class="modal-dialog modal-dialog-centered">
+     <div class="modal-content">
+       <div class="modal-header">
+         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span class="material-icons-round" aria-hidden="true">
+            close
+            </span>
+         </button>
+       </div>
+       <div class="modal-body">
+         <iframe src="https://www.youtube.com/embed/o-ZqtqaTzj4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       </div>
+     </div>
+   </div>
+ </div>
+
+<!--shows video two Modal -->
+<div class="modal fade common-modal" id="showtwovideoModal" tabindex="-1" aria-labelledby="showtwovideoModalLabel" aria-hidden="true">
+   <div class="modal-dialog modal-dialog-centered">
+     <div class="modal-content">
+       <div class="modal-header">
+         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span class="material-icons-round" aria-hidden="true">
+            close
+            </span>
+         </button>
+       </div>
+       <div class="modal-body">
+         <iframe src="https://www.youtube.com/embed/gy0b2hAyFS0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       </div>
+     </div>
+   </div>
+</div>
+
+<!--shows video three Modal -->
+<div class="modal fade common-modal" id="showthreevideoModal" tabindex="-1" aria-labelledby="showthreevideoModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered">
+   <div class="modal-content">
+      <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+         <span class="material-icons-round" aria-hidden="true">
+         close
+         </span>
+      </button>
+      </div>
+      <div class="modal-body">
+         <iframe src="https://www.youtube.com/embed/Kp4TkxIKyfg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+   </div>
+</div>
+</div>
+      
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="assets/js/jquery-3.2.1.slim.min.js"></script>
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/popper.min.js"></script>
+      <script src="assets/js/bootstrap.min.js"></script>
+	  <script src="assets/js/custom.js"></script>
+
+   </body>
+</html>
